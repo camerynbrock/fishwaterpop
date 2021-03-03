@@ -1,6 +1,7 @@
 ## Compares mean density of samples to density of water
-#@param d = density (g/mL)
-#@param density threshold (water) = 1 g/mL
+#' @param d = density (g/mL)
+#' @param density threshold (water) = 1 g/mL
+#' @return comparison of mean density to water
 
 
 density_comparison <- function(d, density_threshold = 1){

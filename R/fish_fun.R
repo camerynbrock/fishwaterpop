@@ -1,8 +1,9 @@
 ## Function that takes a vector of fish names and always returns three items
-# common = most common fish
-# rare = rarest fish
-# total = total number of fish
-# input data should be a factor
+#' @param common = most common fish
+#' @param rare = rarest fish
+#' @param total = total number of fish
+#' @param input data should be a factor
+#' @return list of common, rare, and total species
 
 #  include an option (defaulted to FALSE) that if TRUE also returns a histogram of the number of each fish type, with a title giving the total number of fish caught.  Remember that you can save a graph as a variable.
 
