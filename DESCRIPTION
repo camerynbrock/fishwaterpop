@@ -1,11 +1,15 @@
 Package: fishwaterpop
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Evaluates Populations, Fish, and Liquid Density
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
+Author: Elmera Azadpour, Cameryn Brock, Teague Tran
+Maintainer: cbrock@ucsb.edu
+Description: This package has four different functions. 
     Use four spaces when indenting paragraphs within the Description.
+    density_comparison: Compares mean density of samples to density of water
+    fish_fun: Takes a vector of fish names and always returns three items
+    pop_growth: Calculates how a population will grow based on initial conditions, growth rate and time
+    time_extinc: Estimates time to functional extinction based on initial pop size and annual percent change
 License: What license is it under?
 Encoding: UTF-8
 LazyData: true

@@ -1,4 +1,4 @@
-## function for time to functional extinction
+## Estimates time to functional extinction based on initial pop size and annual percent change
 #' @param n_t = population size (# individuals)
 #' @param p_d = annual percent change in population size (if declining should be negative)
 #' @param t = time (years)

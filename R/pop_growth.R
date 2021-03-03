@@ -1,4 +1,4 @@
-#' How does a population grow based on initial conditions, growth rate and time?
+#' Calculates how a population will grow based on initial conditions, growth rate and time
 #'
 #' @param p0 inital/starting population (# of individuals)
 #' @param e Euler's number default = 2.71828

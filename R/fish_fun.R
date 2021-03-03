@@ -1,4 +1,4 @@
-## Function that takes a vector of fish names and always returns three items
+## Takes a vector of fish names and always returns three items
 #' @param common = most common fish
 #' @param rare = rarest fish
 #' @param total = total number of fish
