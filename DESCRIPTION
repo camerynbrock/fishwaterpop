@@ -3,7 +3,7 @@ Type: Package
 Title: Evaluates Populations, Fish, and Liquid Density
 Version: 0.1.0
 Author: Elmera Azadpour, Cameryn Brock, Teague Tran
-Maintainer: cbrock@ucsb.edu
+Maintainer: <cbrock@ucsb.edu>
 Description: This package has four different functions. 
     Use four spaces when indenting paragraphs within the Description.
     density_comparison: Compares mean density of samples to density of water
