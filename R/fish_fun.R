@@ -1,11 +1,13 @@
-## Takes a vector of fish names and always returns three items
-#' @param common = most common fish
-#' @param rare = rarest fish
-#' @param total = total number of fish
-#' @param input data should be a factor
-#' @return list of common, rare, and total species
-
-#  include an option (defaulted to FALSE) that if TRUE also returns a histogram of the number of each fish type, with a title giving the total number of fish caught.  Remember that you can save a graph as a variable.
+#' Fish Species Summary
+#'
+#' Returns the most common species, the rarest species, and the total number of fish from a factor of fish names. Optional to also return a histogram.
+#'
+#' @param species Factor of fish names.
+#' @param common Most common fish.
+#' @param rare Rarest fish.
+#' @param total Total number of fish.
+#' @param hist Whether to return a histogram with a title of the total number of fish caught. Default is FALSE.
+#' @return List of common, rare, and total species. Will also return a histogram if hist = TRUE.
 
 fish_fun <- function(species, common, rare, total, hist = FALSE){
   require(tidyverse)
