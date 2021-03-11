@@ -9,7 +9,7 @@
 #' @param hist Whether to return a histogram with a title of the total number of fish caught. Default is FALSE.
 #' @return List of common, rare, and total species. Will also return a histogram if hist = TRUE.
 
-fish_fun <- function(species, common, rare, total, hist = FALSE){
+fish_fun <- function(species, hist = FALSE){
   require(tidyverse)
   common = which.max(summary(species))
   rare = which.min(summary(species))
@@ -28,3 +28,4 @@ else{
   return(list(common = common, rare = rare, total = total))
   }
 }
+
